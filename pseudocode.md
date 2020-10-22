@@ -27,3 +27,14 @@
 
 App controls state
     calls API
+
+
+    in componentdidmount () {
+//whole time a loading symbol is showing//
+    if (!localstorage) {
+        call API until i have at least 50 items
+        setState( to send to localstorage)
+    }
+
+    component didupdate when you set state it will automatically write to local storage
+    }
